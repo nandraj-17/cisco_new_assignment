@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    {% for sys in sysDetails %}
+    <tr>
+        <td> {{sys[0]}}</td>
+        <td> {{sys[1]}} </td>
+        <td> {{sys[2]}} </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
